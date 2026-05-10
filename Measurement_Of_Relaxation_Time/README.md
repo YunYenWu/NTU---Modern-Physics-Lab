@@ -11,10 +11,5 @@ In Earth-field NMR experiments, the magnetic field is significantly weaker than 
 - **Raw Data Visualization**: Dual-channel time-domain signal plotting.
 - **Spectral Analysis**: FFT implementation with Hanning windowing and targeted peak searching (e.g., 2026 Hz).
 - **T1 Recovery Fitting**: Batch processing of multiple polarization time files to fit the recovery curve: $M(t) = M_0(1 - e^{-t/T_1})$.
-- **T2* Decay Fitting**: Automated trigger detection and exponential decay fitting for Free Induction Decay (FID) signals.
+- **T2 Decay Fitting**: Automated trigger detection and exponential decay fitting for Free Induction Decay (FID) signals.
 
-## 🛠️ Installation & Requirements
-To run the analysis locally, ensure you have Python installed along with the following libraries:
-
-```bash
-pip install -r requirements.txt

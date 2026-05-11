@@ -1,0 +1,29 @@
+# ==========================================
+# Python Cache and Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# ==========================================
+# Data and Output Files
+# ==========================================
+# Ignore raw data files (GitHub has size limits and data might be private)
+*.csv
+data/
+
+# Ignore generated plots and figures
+*.png
+*.jpg
+*.pdf
+
+# ==========================================
+# IDE and OS Specific Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
